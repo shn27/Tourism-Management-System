@@ -1,0 +1,256 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+     font-family: sans-serif ;
+}
+
+.header{
+   
+    background-attachment: fixed ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 750px;
+    background-image: linear-gradient( rgba( 0 , 0 , 0 , 0.2  ) , rgba( 0 , 0 , 0 , 0.6 )) ,  url(Image/beach1.jpg);;  
+    
+    color: white ;
+    text-align: center ;
+}
+
+.container{
+    padding-top: 20px ;
+}
+
+.LogIn{
+    
+    width: 100px ;
+    background: transparent ;
+    border : 2px solid white ;
+    border-radius: 50px ;
+    color: white ;
+    float: right ;
+    outline: none : important ;
+    padding: 8px 0 ;
+}
+
+.header h1{
+    padding-top: 220px ;
+    padding-bottom: 0 ;
+    font-size: 35px ;
+}
+
+.input-group{
+    width:  90% ;
+    padding: 2px ;
+    max-width: 500px ;
+    border-radius: 30px ;
+    background: #fff ;
+    margin: auto ;
+}
+
+.form-control{
+    width: 100px ;
+    float: left ;
+    border: 0 !important ;
+    border-radius: 30px 0 0 30px !important ;
+    border-radius: 30px ;
+    margin: 2px ;
+    box-shadow: none !important ;
+}
+
+.input-group-text {
+    width: 100px ;
+    background-image: linear-gradient(#00ff7e , #1f3d90) ;
+    border : 0 !important ;
+    color: #fff !important ;
+    padding: 0 25px !important ;
+    
+    border-radius: 30px !important ;
+    box-shadow: none !important ;
+}
+
+/*feature*/
+
+.features{
+    padding: 100px 0 ;
+}
+.features h1 {
+    text-align: center ;
+    padding-bottom: 30px ;
+}
+
+.feature-img img{
+    width: 100% ;
+    height: 250px ;
+}
+
+.price{
+    width: 50px ;
+    float: left ;
+    height: 30px ;
+    border-bottom-left-radius: 20px ;
+    background-color: darkorange ;
+}
+
+.rating{
+    float: right;
+}
+
+.rating .fa{
+    color: darkorange;
+}
+
+.detail{
+    padding-top: 50px ;
+    font-family: sans-serif ;
+   // text-align: justify ;
+}
+
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba( 37 , 73 , 214 , 0.18 ) ;
+    margin-bottom: 30px ;
+}
+
+/*gellery*/
+
+.gellery{
+    padding: 50px 0;
+    background-color: lightgray ;
+}
+
+.gellery h1{
+    text-align: center ;
+}
+
+.gellery-box img{
+    width: 100% ;
+    border-radius: 10px ;
+    cursor: pointer ;
+    transition: 1s ;
+    height: 160px ;
+}
+
+
+.gellery-box img:hover{
+    transform: scale(1.1) ;
+}
+.gellery-box h4{
+    width: 200px ;
+    text-align: center ;
+    font-weight: 600 ;
+   // color: darkorange ;
+}
+
+/*banner*/
+
+.banner{
+    height: 700px ;
+   
+    background-image:  url(Image/saintMartin.jpg);
+    
+    background-position: center ;
+    background-size: cover ;
+    background-attachment: fixed ;
+    
+    padding-top: 14% ;
+}
+
+
+.bannerHighligh{
+    
+    padding: 70px 0 ;
+    background-color: rgba( 0 , 0 , 0 , 0.7 ) ;
+    text-align: center ;
+   
+    color: white ;
+}
+
+
+.booking-btn{
+    width: 120px ;
+    background: transparent ;
+    border : 2px solid white ;
+    border-radius: 50px ;
+    color: white ;
+    
+    margin-top: 20px ;
+    
+    outline: none : important ;
+    padding: 8px 0 ;
+}
+.usersFeedback{
+    padding: 100px 0 ;
+}
+.usersFeedback h1{
+    text-align: center ;
+}
+
+.userReview{
+    text-align: center ;
+    font-family: sans-serif ;
+    
+    box-shadow: 0 0 10px 0 rgba( 0 , 0 , 100 , 0.2 ) ;
+    padding-bottom: 50px ;
+}
+
+.userReview p{
+    padding: 50px 10px 10px 10px ;
+}
+
+.usersFeedback img{
+    width: 100px ;
+    height: 100px ;
+    border-radius: 70% ;
+    position: relative ;
+  
+   
+    margin-left: 35% ;
+}
+
+.userReview p::before{
+   content: '\201d' ;
+    display: block ;
+    position: absolute ;
+    font-size: 100px ;
+    color: #649ed ;
+    left: 44% ;
+    top: -8% ;
+}
+
+.footer{
+    padding: 40px 20px ;
+   background-image: linear-gradient( #2d557d , #9610fb) ;
+    color: #fff ;
+}
+
+.footerLogo{
+    width: 50px ;
+    margin-top:  15px;
+     margin-bottom:  15px: 
+}
+
+
+.footer h4{
+  margin-top:  15px;
+ margin-bottom:  25px: 
+}
+
+.footer p{
+    font-size: 12px ;
+    text-align: justify ;
+    padding-right: 35px ;
+    font-family: sans-serif ;
+}
+
+.footer .fa{
+    padding-right: 10px ;
+}
+
+.footer hr{
+    background: #efefef ;
+    margin-top: 10px ;
+}
+
+.footer .copyright{
+    text-align: center;
+}
